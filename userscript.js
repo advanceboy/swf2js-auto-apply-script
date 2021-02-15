@@ -3,10 +3,10 @@
 // @name:ja             swf2js 自動適用スクリプト (Flash to HTML5)
 // @name:zh-CN          swf2js 自动应用脚本 (Flash to HTML5)
 // @name:zh-TW          swf2js 自動應用腳本 (Flash to HTML5)
-// @description         Use your modern browser and enjoy Flash animations and games safely! This UserScript file finds an embedded Flash .swf file and uses swf2js to convert it to HTML5 and display it in the browser. The success or failure of the conversion depends on the swf2js library.
-// @description:ja      最新のブラウザーを使って、安全に Flash アニメーション・ゲームを楽しみましょう！ この UserScript ファイルは、 Flash の .swf ファイルの埋め込みを見つけたら、 swf2js を使ってそれを HTML5 に変換し、ブラウザ上で表示させます。 変換の成否は、 swf2js ライブラリーに依存します。
-// @description:zh-CN   使用现代的浏览器，安全地享受 Flash 动画和游戏！ 此 UserScript 文件查找嵌入式 Flash .swf 文件，并使用 swf2js 将其转换为 HTML5 并在浏览器中显示。 转换的成功或失败取决于 swf2js 库。
-// @description:zh-TW   使用現代的瀏覽器，安全地享受 Flash 動畫和遊戲！ 此 UserScript 文件查找嵌入式 Flash .swf 文件，並使用 swf2js 將其轉換為 HTML5 並在瀏覽器中顯示。 轉換的成功或失敗取決於 swf2js 庫。
+// @description         Enjoy Flash animations and games safely with your modern browser! This UserScript file finds an embedded Flash .swf file and uses swf2js to convert it to HTML5 and display it in the browser. The success or failure of the conversion depends on the swf2js library.
+// @description:ja      最新のブラウザーで、安全に Flash アニメーション・ゲームを楽しみましょう！ この UserScript ファイルは、 Flash の .swf ファイルの埋め込みを見つけたら、 swf2js を使ってそれを HTML5 に変換し、ブラウザ上で表示させます。 変換の成否は、 swf2js ライブラリーに依存します。
+// @description:zh-CN   使用现代浏览器安全地享受 Flash 动画和游戏！ 此 UserScript 文件查找嵌入式 Flash .swf 文件，并使用 swf2js 将其转换为 HTML5 并在浏览器中显示。 转换的成功或失败取决于 swf2js 库。
+// @description:zh-TW   使用現代瀏覽器安全地享受 Flash 動畫和遊戲！ 此 UserScript 文件查找嵌入式 Flash .swf 文件，並使用 swf2js 將其轉換為 HTML5 並在瀏覽器中顯示。 轉換的成功或失敗取決於 swf2js 庫。
 // @author              advanceboy
 // @version             1.1
 // @include             *

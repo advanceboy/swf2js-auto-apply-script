@@ -3,7 +3,7 @@ swf2js auto-apply script
 
 ## en:
 
-Use your modern browser and enjoy Flash animations and games safely!
+Enjoy Flash animations and games safely with your modern browser!
 
 This UserScript file finds an embedded Flash .swf file and uses swf2js to convert it to HTML5 and display it in the browser.
 
@@ -20,7 +20,7 @@ Following the rules of Greasy Fork, this script will load the cached swf2js file
 
 ## ja:
 
-最新のブラウザーを使って、安全に Flash アニメーション・ゲームを楽しみましょう！
+最新のブラウザーで、安全に Flash アニメーション・ゲームを楽しみましょう！
 
 この UserScript ファイルは、 Flash の .swf ファイルの埋め込みを見つけたら、 swf2js を使ってそれを HTML5 に変換し、ブラウザ上で表示させます。
 
