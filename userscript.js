@@ -8,7 +8,7 @@
 // @description:zh-CN   使用现代浏览器安全地享受 Flash 动画和游戏！ 此 UserScript 文件查找嵌入式 Flash .swf 文件，并使用 swf2js 将其转换为 HTML5 并在浏览器中显示。 转换的成功或失败取决于 swf2js 库。
 // @description:zh-TW   使用現代瀏覽器安全地享受 Flash 動畫和遊戲！ 此 UserScript 文件查找嵌入式 Flash .swf 文件，並使用 swf2js 將其轉換為 HTML5 並在瀏覽器中顯示。 轉換的成功或失敗取決於 swf2js 庫。
 // @author              advanceboy
-// @version             1.1
+// @version             1.2
 // @include             *
 // @grant               none
 // ==/UserScript==
@@ -16,8 +16,9 @@
     'use strict';
     let counter = 0;
     // reverse this to process nested elements from the inside.
-    const loaderCodes = [...document.querySelectorAll('embed[type="application/x-shockwave-flash"][src$=".swf"], object[type="application/x-shockwave-flash"][src$=".swf"]')].reverse().map((elm) => {
-        const { width, height, src } = elm;
+    const loaderCodes = [...document.querySelectorAll('embed[type="application/x-shockwave-flash"][src$=".swf"], object[type="application/x-shockwave-flash"][data$=".swf"]')].reverse().map((elm) => {
+        const { width, height } = elm;
+        const src = elm.tagName === "OBJECT" ? elm.data : elm.src;
         const widthStyle = !width ? '' : `width:${width}${(Number(width) != NaN ? 'px' : '')}`;
         const heightStyle = !height ? '' : `height:${height}${(Number(height) != NaN ? 'px' : '')}`;
         const containerId = `swf2js_container_id_${++counter}`;
