@@ -8,7 +8,7 @@
 // @description:zh-CN   使用现代浏览器安全地享受 Flash 动画和游戏！ 此 UserScript 文件查找嵌入式 Flash .swf 文件，并使用 swf2js 将其转换为 HTML5 并在浏览器中显示。 转换的成功或失败取决于 swf2js 库。
 // @description:zh-TW   使用現代瀏覽器安全地享受 Flash 動畫和遊戲！ 此 UserScript 文件查找嵌入式 Flash .swf 文件，並使用 swf2js 將其轉換為 HTML5 並在瀏覽器中顯示。 轉換的成功或失敗取決於 swf2js 庫。
 // @author              advanceboy
-// @version             1.3
+// @version             1.4
 // @include             *
 // @grant               none
 // ==/UserScript==
@@ -41,7 +41,7 @@
             // execute swf2js on browser scope
             const swf2jsScriptElm = document.createElement('script');
             swf2jsScriptElm.type = 'text/javascript';
-            swf2jsScriptElm.src = 'https://gitcdn.link/cdn/swf2js/swf2js/d9ec7ebe4a886d5337417a595caba49effdea5dd/swf2js.js';
+            swf2jsScriptElm.src = 'https://cdn.jsdelivr.net/gh/swf2js/swf2js@d9ec7ebe4a886d5337417a595caba49effdea5dd/swf2js.js';
             swf2jsScriptElm.onload = swf2jsLoadedCallback;
             document.body.appendChild(swf2jsScriptElm);
         } else {
